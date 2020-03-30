@@ -1,5 +1,3 @@
-filename = input("Put filename here: ")
-
 try:
     with open(filename) as f:
         usernames = f.readlines()
